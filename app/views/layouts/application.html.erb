@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Test2</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<nav>
+		<div class="inner"> 
+			
+			<div class="logo">App Review</div>
+			<form class="search">
+			  <input type="text" name="search">
+			</form>
+			
+			<div class="links">
+				<ul>
+					<li><a href=#>About</a></li>
+					<li><a href=#>Reviews</a></li>
+					<li><a href=#>Contact</a></li>
+			</div>
+			
+		</div>
+	</nav>
+
+<div class="container">
+
+	<%= yield %>
+	
+</div>
+
+</body>
+</html>

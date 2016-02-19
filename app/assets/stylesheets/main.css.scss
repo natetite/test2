@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* END RESET */
+html {
+	background-color: #fff;
+	font-family: 'Avenir', sans-serif;
+}
+
+@font-face {
+    font-family: Avenir;
+    src: url(fonts/Avenir.ttc);
+}
+
+/* unvisited link */
+a:link, a:visited {color: #fff; text-decoration: none;}
+
+/* mouse over link */
+a:hover, a:active {color: #f0f0f0;}
+
+nav {
+	position: relative;
+	top: 0;
+	z-index: 1000;
+	width: 100%;
+	height: 60px;
+	background-color: #1B2324;
+}
+
+nav .inner {
+	margin: 0 auto;
+	width: 95%;
+	height: 60px;
+}
+
+.logo {
+	line-height: 60px;
+	margin: 0;
+	font-size: 16px;
+	font-weight: 800;
+	color: #fff;
+	padding: 0 30px 0 0;
+	float: left;
+	font-family: 'Comfortaa', sans-serif;
+}
+
+.search {
+	line-height: 60px;
+	margin-top: 2px;
+	float: left;
+	height: 60px;
+}
+
+.search input {
+	height: 35px;
+	width: 200px;
+	padding: 0 10px;
+	font-size: 20px;
+	text-indent: 24px;
+	outline: none;
+	border: none;
+	font-family: 'Avenir', sans-serif;	
+	font-weight: 200;
+	background-image:url('glyphicons_free/glyphicons/png/glyphicons-28-search.png');
+	background-repeat: no-repeat;
+	background-position: 10px;
+	background-size: 17px;
+	border-radius: 20px;
+	background-color: #fff;
+}
+
+.links {
+	float: right;
+	height: 60px;
+}
+
+.links ul {
+	height: 60px;
+}
+
+.links ul li {
+	float: left;
+	line-height: 60px;
+	height: 60px;
+}
+
+.links ul li a {
+	height: 60px;
+	padding: 21px 16px 20px 16px;
+	font-size: 14px;
+}
+
+.links ul li a:link, .link ul li a:visited {
+	
+}
+
+.links ul li a:hover, .link ul li a:active {
+	background-color: #2B6677;
+}
+
+.container {
+	margin: 100px auto 80px auto;
+	background-color: #fff;
+	width: 100%;
+	max-width: 960px;
+	padding: 30px;
+	overflow: auto;
+}
+
+.card {
+	float: left;
+	width: 200px;
+	height: 274px;
+	margin: 20px;
+	border-radius: 4px;
+	background-color: #D5D6D7;
+}
+
+.icon {
+	width: 180px;
+	height: 180px;
+	margin: 10px;
+	background-color: #f4f4f4;
+}
+
+.gametitle {
+	font-size: 18px;
+	font-weight: 700;
+	margin: 8px 12px;
+}
+
+.price {
+	margin: 8px 12px;
+}
+
+.rating {
+	margin: 8px 12px;
+}
+
+
+
